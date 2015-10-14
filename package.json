@@ -1,0 +1,38 @@
+{
+    "name": "batch-api-requests",
+    "version": "0.0.1",
+    "description": "Nodejs Client and Express module for handling batch HTTP requests.",
+    "main": "lib/index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "NODE_ENV=test mocha --recursive"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/enigmamarketing/batch-api-requests.git"
+    },
+    "keywords": [
+        "batch",
+        "api",
+        "express",
+        "middleware"
+    ],
+    "author": "Enigma Marketing",
+    "license": "Apache 2.0",
+    "bugs": {
+        "url": "https://github.com/enigmamarketing/batch-api-requests/issues"
+    },
+    "homepage": "https://github.com/enigmamarketing/batch-api-requests#readme",
+    "dependencies": {
+        "common-errors": "^0.5.3",
+        "express": "^4.0.0",
+        "merge": "1.2.0",
+        "q": "^1.4.1",
+        "request": "^2.65.0"
+    },
+    "devDependencies": {
+        "mocha": "^2.3.3"
+    }
+}
